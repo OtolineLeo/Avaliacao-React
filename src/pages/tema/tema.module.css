@@ -1,27 +1,32 @@
-/* .tema-claro {
+.container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.buttonContainer {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  ;
+  
+}
+
+.button {
+  height: 100px;
+  width: 200px;
+  
+}
+
+.claro {
   background-color: #ffffff;
   color: #000000;
-  font-family: Arial, sans-serif;
-  transition: all 0.3s ease;
 }
 
-.tema-escuro {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #222222;
+.escuro {
+  background-color: #333333;
   color: #ffffff;
-  font-family: Arial, sans-serif;
-  transition: all 0.3s ease;
-} */
-
-.titulo{
-  color: black;
 }
-
 

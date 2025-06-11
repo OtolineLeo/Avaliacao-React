@@ -10,12 +10,32 @@
   color: black;
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
-  width: 15rem;
+  gap: 1rem;
+  width: 20rem;
 }
 
 .text {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
 }

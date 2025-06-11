@@ -38,7 +38,7 @@ export function MenasgemPage(){
 
           <Button className={styles.botao}
             type="button"
-            message="Back to home"
+            message="Voltar para Home"
             onClick={() => navigate("/")}
           />
         </div>
