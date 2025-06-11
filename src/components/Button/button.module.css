@@ -5,6 +5,8 @@
   font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
+  height: 2rem;
+  width: 10rem;
 }
 
 .button:hover {

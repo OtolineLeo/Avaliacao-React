@@ -35,14 +35,14 @@ export function TarefasPage() {
          <div className={styles.caixaComScroll}>
             {itens.map((item, index) => (
 
-                <p key={index}>
+                <p className={styles.caixa} key={index}>
                   {item}
                   </p>
 
             ))}
           </div>
 
-            <Input
+            <Input 
                 type="text"
                 placeholder="Digite sua tarefa..."
                 onChange={(e) => setTexto(e.target.value)}
